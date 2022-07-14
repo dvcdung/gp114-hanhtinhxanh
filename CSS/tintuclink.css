@@ -1,0 +1,66 @@
+.tintucnoibat > .content{
+    display: block;
+    margin-top: 0;
+    padding: 5px 20px 20px 20px;
+}
+.tintucnoibat .content > .content-content{
+    width: 100%;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 0px;
+}
+.tintucnoibat .content .content-link{
+    text-align: center;
+}
+.tintucnoibat .content .content-link > i{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.tintucnoibat .content .content-link > h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.tintucnoibat .content .content-link > p{
+    font-size: 10px;
+    color: gray;
+    text-align: start;
+    margin-top: 40px;
+}
+.tintucnoibat .content .content-title{
+    margin: auto;
+    width: 100%;
+    margin-top: -10px;
+}
+.tintucnoibat .content .content-title > p{
+    font-size: 16px;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+.tintucnoibat .content .content-title > p::first-letter{
+    margin-left: 40px;
+}
+.tintucnoibat .content .content-title > img{
+    border-radius: 0px;
+    width: 80%;
+    margin-left: 10%;
+}
+.tintucnoibat .content .content-content{
+    padding: 5%;
+}
+
+@media screen and (max-width: 820px){
+    .tintucnoibat .content .content-link > h1{
+        font-size: 25px;
+    }
+    .tintucnoibat .content .content-title > p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 610px){
+    .tintucnoibat .content .content-link > h1{
+        font-size: 18px;
+    }
+    .tintucnoibat .content .content-title > p{
+        font-size: 13px;
+    }
+}

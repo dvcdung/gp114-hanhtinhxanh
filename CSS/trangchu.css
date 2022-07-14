@@ -1,0 +1,554 @@
+:root {
+    --background-color-green:  rgb(0, 130, 0);
+    --button-border-color: rgb(19, 158, 11);
+    --button-background-color: rgb(27, 231, 16);
+    --border-color: rgb(9, 174, 9);
+}
+
+
+div.main {
+    width: 100%;
+    background-color: rgb(23, 48, 25);
+    padding-bottom: 100px;
+
+    border-radius: 0;
+}
+marquee {
+    padding: 4px;
+    color: rgb(30, 255, 9);
+    font-size: 13px;
+}
+
+.main > .pic_forest {
+    width: 100%;
+    border-top: solid 1px  rgb(9, 174, 9);
+    border-radius: 0;
+    margin-top: -7px;
+}
+
+/*TIN TUC NOI BAT------------------------------------------------------  */
+.main > .tintucnoibat {
+    margin-bottom: 40px;
+}
+
+    /* CONTENT -----------------------*/
+.tintucnoibat > .content {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding-top: 5px;
+    border: solid 1px var(--border-color);
+    border-top: none;
+    border-radius: 0;
+    background-color: var(--background-color-green);
+}
+
+        /* CONTENT-LEFT-------------- */
+.tintucnoibat > .content > .content-left {
+    width: 60%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border-right: solid 1px white;
+}
+.tintucnoibat > .content > .content-left > a {
+    width: 100%;
+    text-decoration: none;
+    color: black;
+}
+.tintucnoibat > .content > .content-left > a > img{
+    border: solid 2px white;
+    border-bottom-left-radius: 0;
+}
+.tintucnoibat > .content > .content-left > a > div {
+    border-top-right-radius: 0;
+    background-color: rgb(255, 255, 255);
+    padding: 0 5px;
+    margin-bottom: 15px;
+    border: solid 1px rgb(255, 255, 255);
+    display: block;
+}
+.tintucnoibat>.content >.content-left > a:hover > div {
+    background-color: rgb(244, 244, 244);
+    border-radius: 0;
+    transition: 200ms;
+    margin-top: 7px;
+    margin-bottom: 8px;
+}
+.tintucnoibat>.content >.content-left > a:hover > img {
+    transform: scale(1.04, 1.04);
+    overflow: hidden;
+    border: solid 2px rgb(184, 253, 172);
+    transition: 200ms;
+    transition-timing-function: ease-in-out
+}
+.tintucnoibat > .content > .content-left > a > div > .caption {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: bolder;
+    padding: 10px 15px 10px 15px;
+}
+.tintucnoibat > .content > .content-left > a > div > .time {
+    margin-top: -30px;
+    padding-left: 15px;
+    font-size: 11px;
+    color: rgb(80, 79, 79);
+    margin-bottom: 15px;
+}
+.tintucnoibat > .content > .content-left > a > div > .node {
+    color: rgb(56, 55, 55);
+    width: 100%;
+    height: 86px; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: justify;
+    font-size: 14px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+.tintucnoibat > .content > .content-left > a > div > .node::first-letter {
+    margin-left: 25px;
+}
+
+
+        /* CONTENT-RIGHT------------- */
+.tintucnoibat > .content > .content-right {
+    width: 40%;
+    padding: 5px 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.tintucnoibat > .content > .content-right > ul {
+    padding: 0;
+}
+.tintucnoibat > .content > .content-right > ul > li {
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 5px;
+    
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.tintucnoibat > .content > .content-right > ul > li > a {
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    display: flex;
+}
+.tintucnoibat > .content > .content-right > ul > li > a > img{
+    width: 111px;
+    height: 74px;
+    border: solid 2px white;
+    
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.tintucnoibat > .content > .content-right > ul > li > a > div > .caption {
+    height: 45px;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: bolder;
+    padding: 5px 15px 5px 0px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+.tintucnoibat > .content > .content-right > ul > li > a > div > .time {
+    margin-left: 10px;
+    font-size: 11px;
+    color: rgb(80, 79, 79);
+    margin-bottom: 0;
+}
+
+
+.tintucnoibat > .content > .content-right > ul > li:hover {
+    background-color: rgb(244, 244, 244);
+    margin-left: -8px;
+    transition: 100ms;
+    transition-timing-function: ease-in-out;
+}
+.tintucnoibat > .content > .content-right > ul > li:hover > a > img {
+    border: solid 2px rgb(184, 253, 172);
+    transform: scale(1.06, 1.06);
+}
+.tintucnoibat > .content > .content-right > ul > li:hover > a > div > .caption {
+    color: rgb(8, 27, 4);
+    font-size: 15px;
+}
+
+
+/* CHIẾN DỊCH NỔI BẬT-------------------------------------------------- */
+.chiendichnoibat > .content {
+    width: 80%;
+    margin: auto;
+    border: solid 1px var(--border-color);
+    border-top: none;
+    border-radius: 0;
+    background-color: var(--background-color-green);
+}
+.chiendichnoibat > .content > ul {
+    margin: 0 10px;
+    padding: 5px 0;
+}
+.chiendichnoibat > .content > ul > li {
+    margin: 10px 10px;
+    margin-top: 5px;
+    padding: 10px 10px;
+    display: flex;
+    border: solid 2px rgb(232, 232, 232);
+    color: black;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(74, 74, 74) 0px 3px 5px;
+    
+    border-top-right-radius: 20px; 
+    border-bottom-left-radius: 20px;
+}
+.chiendichnoibat > .content > ul > li > .pic_btn {
+    display: block;
+    padding: 10px 10px 15px 10px;
+    background-color: white;
+    box-shadow: rgb(186, 185, 185) 0px 3px 10px;
+    margin-right: 5px;
+    border-top-right-radius: 0;
+    border: solid 1px rgb(232, 232, 232);
+}
+.chiendichnoibat > .content > ul > li > div > img {
+    width: 243px;
+    height: 182px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-bottom: 20px;
+    box-shadow: rgb(223, 223, 223) 0px 3px 10px;
+}
+
+.chiendichnoibat > .content > ul > li > .thongtinchiendich {
+    padding: 10px;
+    flex: 1;
+    background-color: white;
+    border: solid 1px rgb(232, 232, 232);
+    box-shadow: rgb(186, 185, 185) 0px 3px 10px;
+    border-bottom-left-radius: 0;
+}
+.chiendichnoibat > .content > ul > li > .thongtinchiendich > div {
+    border: solid 1px rgb(225, 224, 224);
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;
+}
+.chiendichnoibat > .content > ul > li > .thongtinchiendich > div > p {
+    text-shadow: 1px 1px 1px rgb(226, 225, 225);
+    font-weight: bold;
+    font-size: 15px;
+    margin: 5px 0;
+    color: rgb(62, 62, 62);
+}.chiendichnoibat > .content > ul > li > .thongtinchiendich > div > p > b {
+    color: rgb(31, 31, 31);
+    font-weight: bolder;
+    margin-right: 5px;
+}
+
+
+.chiendichnoibat > .content > ul > li:hover div > img {
+    border: solid 1px rgb(255, 255, 255);
+    box-shadow: rgb(237, 236, 236) 1px 3px 20px;
+    transform: scale(1.06, 1.06);
+    transition: 100ms;
+    transition-timing-function: ease-in-out;
+}
+.chiendichnoibat > .content > ul > li:hover > .thongtinchiendich > div{
+    transform: scale(1.02, 1.02);
+    transition: 100ms;
+    transition-timing-function: ease-in-out;
+    box-shadow: rgb(237, 236, 236) 1px 3px 20px;
+}
+
+
+/* BIỆT ĐỘI NỔI BẬT------------------------------------------------ */
+.bietdoinoibat {
+    margin-top: 40px;
+}
+.bietdoinoibat > .content {
+    width: 90%;
+    margin: auto;
+    padding: 5px 10px 10px 10px;
+    border: solid 1px var(--border-color);
+    border-top: none;
+    border-radius: 0;
+    background-color: var(--background-color-green);
+    display: flex;
+}
+
+/* BẢNG XẾP HẠNG CHÍNH----------------------- */
+.bietdoinoibat > .content > .bangxephang {
+    border: solid 2px white;
+    background-color: rgb(205, 255, 186);
+    width: 65%;
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-around;
+    height: 546px;
+}
+.bietdoinoibat > .content > .bangxephang > div {
+    width: 30%;
+    display: flex;
+    align-items: flex-end;
+}
+.bietdoinoibat > .content > .bangxephang > div > div {
+    width: 78px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(7, 29, 2);
+}
+.bietdoinoibat > .content > .bangxephang > .top1 > div{  
+    border: solid 3px rgb(215, 195, 10);
+    height: 90%;
+    background-color: rgb(246, 246, 0);
+}
+.bietdoinoibat > .content > .bangxephang > .top2 > div{  
+    border: solid 3px rgb(130, 163, 164);
+    height: 65%;    
+    background-color: rgb(181, 207, 208);
+}
+.bietdoinoibat > .content > .bangxephang > .top3 > div{  
+    border: solid 3px rgb(247, 134, 28);
+    height: 50%;
+    background-color: rgb(187, 116, 46);
+}
+/* BẢNG XẾP HẠNG PHỤ ------------------------ */
+.bietdoinoibat > .content > ul {
+    width: 35%;
+    padding: 0;
+    margin-left: 20px;
+}
+.bietdoinoibat > .content > ul > li {
+    margin-bottom: 5px;
+    background-color: rgb(205, 255, 186);
+    display: flex;
+    border: solid 2px white;
+    padding-right: 5px;
+
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.bietdoinoibat > .content > ul > li > img {
+    border: solid 2px rgb(149, 149, 149);
+    margin-right: 5px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.bietdoinoibat > .content > ul > li > div >.namegroup {
+    font-weight: bold;
+    margin: 0;
+}
+.bietdoinoibat > .content > ul > li > div > .ranks {
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    color: red;
+}
+div, img { 
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+
+@media screen and (max-width: 1250px) {
+    .tintucnoibat > .content > .content-right > ul > li > a:hover > div > .caption {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1170px) {
+    .tintucnoibat > .content > .content-right > ul > li > a > img {
+        width: 108px;
+        height: 72px;
+    }
+    .tintucnoibat > .content > .content-right > ul > li > a > div > .caption {
+        font-size: 13px;
+    }
+    
+    .tintucnoibat > .content > .content-right > ul > li > a:hover > div > .caption {
+        font-size: 14px;
+    }
+}
+
+
+
+@media screen and (max-width: 1050px) {
+    .tintucnoibat > .content {
+        display: block;
+    }
+    .tintucnoibat > .content > .content-left {
+        width: auto;
+        margin-right: 10px;
+        border: none;
+    }
+    .tintucnoibat > .content > .content-right {
+        border: none;
+        margin-top: -20px;
+        padding-top: 10px;
+        border-top: solid 2px white;
+        width: auto;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .tintucnoibat > .content > .content-right > ul > li > a > img{
+        width: 120px;
+        height: 80px;
+    }
+    .tintucnoibat > .content > .content-right > ul > li > a:hover > div > .caption {
+        font-size: 19px;
+    }
+    .tintucnoibat > .content > .content-right > ul > li > a > div > .caption {
+        font-size: 18px;
+        height: 30px;
+    }
+
+    .chiendichnoibat > .content > ul > li {
+        display: block;
+    }
+    .chiendichnoibat > .content > ul > li > .pic_btn  {
+        margin-right: 0;
+        border-radius: 0;
+    }
+    .chiendichnoibat > .content > ul > li > .pic_btn > img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .chiendichnoibat > .content > ul > li > .thongtinchiendich {
+        border-radius: 0;
+    }
+
+    .bietdoinoibat > .content {
+        display: block;
+    }
+    .bietdoinoibat > .content >.bangxephang {
+        width: 100%;
+    }
+    .bietdoinoibat > .content > ul {
+        width: auto;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 790px) { 
+    .tintucnoibat > .content > .content-right > ul > li > a > img{
+        width: 117px;
+        height: 78px;
+    }
+    .tintucnoibat > .content > .content-right > ul > li > a:hover > div > .caption {
+        font-size: 18px;
+    }
+    .tintucnoibat > .content > .content-right > ul > li > a > div > .caption {
+        font-size: 16px;
+        height: 25px;
+    }
+
+    .tintucnoibat > .content > .content-left > a > div > .caption {
+        font-size: 28px;
+    }
+
+    
+    .chiendichnoibat > .content > ul > li > .thongtinchiendich > div > p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .tintucnoibat > .content > .content-right > ul > li > a > img{
+        width: 114px;
+        height: 74px;
+    }
+    .tintucnoibat > .content > .content-right > ul > li > a:hover > div > .caption {
+        font-size: 17px;
+    }
+    .tintucnoibat > .content > .content-right > ul > li > a > div > .caption {
+        font-size: 15px;
+    }
+
+    .tintucnoibat > .content > .content-left > a > div > .caption {
+        font-size: 26px;
+    }
+
+
+    .chiendichnoibat > .content > ul > li > .thongtinchiendich > div > p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 675px) {
+    .tintucnoibat > .content > .content-right > ul > li > a > img{
+        width: 105px;
+        height: 70px;
+    }
+    .tintucnoibat > .content > .content-right > ul > li > a:hover > div > .caption {
+        font-size: 16px;
+    }
+    .tintucnoibat > .content > .content-right > ul > li > a > div > .caption {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .tintucnoibat > .content, .chiendichnoibat > .content, .bietdoinoibat > .content {
+        width: 100%;
+    }
+
+    .tintucnoibat > .content > .content-right > ul > li > a > img{
+        width: 99px;
+        height: 66px;
+    }
+    .tintucnoibat > .content > .content-left > a > div > .caption {
+        font-size: 20px;
+    }
+    .tintucnoibat > .content > .content-right > ul > li > a:hover > div > .caption {
+        font-size: 14px;
+    }
+    .tintucnoibat > .content > .content-right > ul > li > a > div > .caption {
+        font-size: 13px;
+    }
+
+    .chiendichnoibat > .content > ul > li > .thongtinchiendich > div > p {
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .tintucnoibat > .content > .content-right > ul > li > a > img {
+        width: 66px;
+        height: 44px;
+    }
+    .tintucnoibat > .content > .content-left > a > div > .caption {
+        font-size: 13px;
+    }
+    .tintucnoibat > .content > .content-left > a > div > .time {
+        font-size: 9px;
+    }
+    .tintucnoibat > .content > .content-left > a > div > .node {
+        margin-top: -10px;
+        font-size: 10px;
+    }
+
+    .tintucnoibat > .content > .content-right > ul > li > a:hover > div > .caption {
+        font-size: 11px;
+    }
+    .tintucnoibat > .content > .content-right > ul > li > a > div > .caption {
+        font-size: 10px;
+        height: 20px;
+        margin-left: 5px;
+    }
+    .tintucnoibat > .content > .content-right > ul > li > a > div > .time {
+        font-size: 9px;
+        margin-left: 5px;
+    }
+
+    .chiendichnoibat > .content > ul > li > .thongtinchiendich > div > p {
+        font-size: 10px;
+    }
+}

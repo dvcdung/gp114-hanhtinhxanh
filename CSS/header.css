@@ -1,0 +1,545 @@
+/* ÁP DỤNG CHO TOÀN PROJECT*/
+    /* BUTTON */
+.btn_htx {
+    background-color: rgb(42, 193, 34);
+    display: block;
+    width: 150px;
+    height: 36px;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgb(253, 253, 253);
+    border: outset 3px rgb(70, 255, 60);
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    text-shadow: 1px 0px 2px rgb(2, 32, 2);
+    box-shadow: rgb(164, 164, 164) 0px 3px 5px;
+    margin: auto;
+}
+.btn_htx:hover {
+    transform: scale(1.2, 1.2);
+    transition: 400ms;
+    transition-timing-function: ease-in-out;
+    color: rgb(4, 255, 0);
+    background-color: rgb(32, 77, 37);
+}
+
+/* RIÊNG PHẦN HEADER */
+:root {
+    --background-color-green:  rgb(0, 130, 0);
+    --button-border-color: rgb(19, 158, 11);
+    --button-background-color: rgb(27, 231, 16);
+    --border-color: rgb(9, 174, 9);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cambria;
+}
+
+.header {
+    width: 100%;
+    background-color: rgb(0, 130, 0);
+
+    padding-top: 5px;
+    border-bottom: solid 1px rgb(9, 174, 9);
+    border-radius: 0;
+}
+
+.logoandname {
+    display: flex;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 7px;
+    
+    justify-content: end;
+}
+div.containerrr {
+    flex: 1;
+    padding: 5px 25px;
+    display: flex;
+    border: solid 1px var(--border-color);
+    box-shadow: 0px 1px 3px rgb(39, 39, 39);
+    
+    border-bottom-left-radius: 45px;
+}
+.logoimg {
+    width: 115px;
+    height: 115px;
+    border: solid 2px rgb(255, 255, 255);
+    
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+    box-shadow: 1px 0px 3px rgb(46, 46, 46);
+}
+
+
+.Title {
+    margin-left: 0px;
+}
+p.titleweb {
+    font-size: 50px;
+    font-weight: 900;
+    color:rgb(255, 255, 255);
+    text-shadow: 3px 0px 4px rgb(46, 46, 46);
+}
+p.sloganweb {
+    margin-left: 30px;
+    font-size: 18px;
+    color:rgb(253, 253, 253);
+    margin-top: -27px;
+    text-shadow: 4px 0px 4px rgb(46, 46, 46);
+}
+
+.leaf1 {
+    display: block;
+    font-size: 86px;
+    padding: 0 30px 0 10px;
+    color:rgb(255, 255, 255);
+    text-shadow: -6px 1px 4px rgb(46, 46, 46);
+    transform: rotateY(180deg);
+}
+.leaf2 {
+    display: block;
+    font-size: 86px;
+    padding: 0 10px 0 10px;
+    color:rgb(255, 255, 255);
+    text-shadow: -6px 1px 4px rgb(46, 46, 46);
+}
+
+.Homnay {
+    padding-right: 4px;
+    display: flex;
+    justify-content: end;
+    margin-left: 1px;
+}
+.Homnay > div {
+    padding-left: 10px;
+    padding-right: 130px;
+    padding-top: 10px;
+    border: solid 1px var(--border-color);
+    box-shadow: 0px 1px 3px rgb(39, 39, 39);
+    
+    border-top-right-radius: 45px;
+}
+.Homnay i {
+    line-height: 31px;
+    margin-right: 5px;
+    color: rgb(255, 238, 0);
+    display: none;
+}
+.Homnay #ngay {
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(254, 254, 254);
+    text-shadow: 0px 1px 2px black;
+    margin-bottom: -10px;
+}
+.Homnay #gio {
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0px 1px 2px black;
+    margin: 0;
+}
+
+div.nav {
+    width: 100%;     
+    height: 50px;
+    margin-top: 5px;
+    padding: 5px 0;
+    border-radius: 0;
+    border-top: solid 1px rgb(9, 174, 9);
+}
+
+div.nav > ul {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    padding: 0;
+    padding-left: 5px;
+}
+div.nav > ul > li {
+    width: 15%;
+    height: 30px;
+    text-align: center;
+    padding: 0 0px;
+}
+div.nav > ul > li > a {
+    background-color: rgb(42, 193, 34);
+    display: block;
+    width: 97%;
+    font-size: 16px;
+    line-height: 30px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgb(253, 253, 253);
+    border: outset 3px rgb(70, 255, 60);
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    text-shadow: 1px 0px 2px rgb(2, 32, 2);
+    box-shadow: rgb(164, 164, 164) 0px 3px 5px;
+}
+
+div.nav > ul > li > a:hover {
+    width: 100%;
+    transition: 400ms;
+    transition-timing-function: ease-in-out;
+    margin-top: 5px;
+    font-size: 21px;
+    color: rgb(4, 255, 0);
+    background-color: rgb(32, 77, 37);
+    border: outset 8px rgb(60, 134, 67);
+}
+
+
+
+.traidat {
+    position: fixed;
+    top: 20px;
+    right: 10px;
+}
+.traidat > img {
+    margin-top: -5px;
+    margin-left: 20px;
+}
+.timkiemchung {
+    transform: scale(1.15, 1.15);
+    padding-top: 20px;
+    position: fixed;
+    top:60px;
+    right: 25px;
+}
+.buttons {
+    padding: 2px 5px;
+    border-radius: 10px;
+    background: rgb(179, 18, 16);
+    border: solid 2px rgb(66, 65, 65);
+    font-weight: bold;
+    color: white;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-left: -4px;
+}
+.buttons:hover {
+    background: rgb(193, 17, 14);
+    color: rgb(228, 228, 228);
+    border-color:rgb(4, 255, 0);
+}
+.timkiemchung > input {
+    width: 190px;
+    border-radius: 10px;
+    outline: none;
+    border: solid 4px rgb(66, 65, 65);
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+    background-color: rgb(255, 255, 255);
+    padding-left: 10px;
+    border-right: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-right: -3px;
+}
+
+.main {
+    position: relative;
+}
+.menu_on_hover {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    border-radius: 0;
+    background-color: rgb(25, 25, 25);
+    padding: 0 40px;
+    padding-top: 5px;
+    border-bottom: solid 1px rgb(9, 174, 9);
+    display: none;
+}
+.menu_on_hover > ul {
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+.menu_on_hover > ul > li {
+    width: 100%;
+    border: solid 1px white;
+    padding: 5px;
+    margin-top: 4px;
+    font-size: 15px;
+}
+.menu_on_hover > ul > li:hover {
+    transform: scale(1.1, 1.1);
+    background-color: rgb(22, 171, 3);
+}
+.menu_on_hover > ul > li:hover > a {
+    color: black;
+}
+
+.menu_on_hover > ul > li > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+
+/* MINI MENU */
+.mini_menu {
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(230, 227, 227);
+    margin-left: 5px;
+    margin-top: -36px;
+    width: 150px;
+    height: 27px;
+    line-height: 23px;
+    font-size: 17px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: none;
+    cursor: pointer;
+    display: none;
+}
+.mini_menu:hover {
+    margin-left: 11px;
+    background-color: black;
+    transform: scale(1.08, 1.1);
+}
+.mini_menu > i.mn.fa-house-chimney {
+    font-size: 16px;
+}
+.mini_menu > p {
+    display: inline;
+    margin-left: 3px;
+}
+.mini_menu > i.mn.fa-leaf {
+    margin-left: 6px;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 1150px) {
+    div.containerrr {
+        border-radius: 0;
+        padding: 5px 15px;
+    }
+    .timkiemchung {
+        top: 0;
+    }
+    .timkiemchung > input {
+        width: 150px;
+    }
+    .Homnay > div {
+        margin: 0;
+        padding-top: 60px;
+        padding-right: 0;
+        width: 250px;
+        border-radius: 0;
+    }
+    .traidat {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1036px) {
+    p.titleweb{
+        font-size: 45px;
+        margin-top: 8px;
+    }
+    p.sloganweb {
+        font-size: 17px;
+    }
+    .containerrr > i {
+        margin-top: 8px;
+        font-size: 78px;
+    }
+}
+
+@media screen and (max-width: 982px) {
+    p.titleweb{
+        font-size: 40px;
+        margin-top: 14px;
+    }
+    p.sloganweb {
+        font-size: 15px;
+        margin-left: 23px;
+    }
+    .containerrr > i {
+        margin-top: 14px;
+        font-size: 70px;
+    }
+    .Homnay i {
+        display: block;
+    }
+    .Homnay #gio {
+        font-size: 30px;
+        margin-top: 5px;
+    }
+    .header {
+        height: 145px;
+    }
+    div.nav {
+        background-color: rgba(240, 248, 255, 0);
+    }
+    div.nav > ul {
+        display: none;
+    }
+    div.nav {
+        display: flex;
+        justify-content: end;
+        padding-right: 10px;
+    }
+    div.nav > .menu-list {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 982px) {
+    .header {
+        padding-right: 5px;
+    }
+    .logoandname {
+        display: block;
+    }
+    p.titleweb{
+        font-size: 45px;
+        margin-top: 20px;
+    }
+    p.sloganweb {
+        font-size: 17px;
+        margin-left: 27px;
+    }
+    .containerrr > i {
+        margin-top: 20px;
+        font-size: 78px;
+    }
+
+    .mini_menu {
+        display: block;
+    }
+
+    .Homnay > div {
+        line-height: 30px;
+        width: max-content;
+        display: flex;
+        padding: 0;
+        border: none;
+        box-shadow: none;
+    }
+    .Homnay #ngay {
+        margin-right: 20px;
+        font-size: 15px;
+    }
+    .Homnay #gio {
+        font-size: 15px;
+        margin-right: 10px;
+        margin-top: 0px;
+    }
+    .timkiemchung {
+        top: -5px;
+    }
+    .timkiemchung > input{
+        box-shadow: none;
+    }
+    .timkiemchung > .buttons{
+        box-shadow: none;
+    }
+    .header {
+        height: 170px;
+    }
+}
+
+@media screen and (max-width: 758px) {
+    p.titleweb{
+        font-size: 40px;
+        margin-top: 30px;
+    }
+    p.sloganweb {
+        font-size: 15px;
+        margin-left: 22px;
+    }
+    .containerrr > i {
+        margin-top: 30px;
+        font-size: 68px;
+    }
+}
+
+@media screen and (max-width: 675px) {
+    p.titleweb{
+        font-size: 34px;
+        margin-top: 40px;
+    }
+    p.sloganweb {
+        font-size: 13px;
+        margin-left: 16px;
+    }
+    .containerrr > i {
+        margin-top: 40px;
+        font-size: 54px;
+    }
+    .Homnay #ngay {
+        margin-right: 16px;
+        font-size: 13px;
+    }
+    .Homnay #gio {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    p.titleweb{
+        font-size: 34px;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+    p.sloganweb {
+        font-size: 13px;
+        margin-left: 38px;
+    }
+    .containerrr > i {
+        display: none;
+    }
+    .Homnay #ngay {
+        margin-right: 12px;
+        font-size: 12px;
+    }
+    .Homnay #gio {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:499px) {
+    p.titleweb{
+        font-size: 22px;
+        margin-top: 40px;
+        margin-left: 20px;
+        margin-bottom: 23px;
+    }
+    .timkiemchung > input {
+        width: 140px;
+    }
+    p.sloganweb {
+        font-size: 8px;
+        margin-left: 34px;
+    }
+    .Homnay #ngay {
+        margin-right: 6px;
+        font-size: 10px;
+    }
+    .Homnay #gio {
+        margin-right: -4px;
+        font-size: 10px;
+    }
+    .mini_menu:hover {
+        transform: none;
+        margin-left: 5px;
+        color: white;
+    }
+    .mini_menu:active {
+        color: var(--button-background-color);
+        transform: scale(0.95, 0.9);
+    }
+}
+

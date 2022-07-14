@@ -1,0 +1,68 @@
+.title {
+    height: 65px;
+    background-color: var(--background-color-green);
+    margin: 0;
+    border-top: solid 1px var(--border-color);  
+    border-bottom: solid 1px var(--border-color);
+    border-radius: 0;
+}
+.title > p {
+    line-height: 60px;
+    font-size: 28px;
+    font-weight: bolder;
+    padding-left: 15px;
+    color: rgb(254, 254, 254);
+    text-shadow: 1px 1px 1px #000;
+}
+.title > p > i, .title > p > span > i {
+    margin-left: 3px;
+    color: yellow;
+}
+
+
+
+@media screen and (max-width: 1250px) {
+}
+
+@media screen and (max-width: 1170px) {
+    .title > p {
+        font-size: 26px;
+    }
+}
+
+
+
+@media screen and (max-width: 1050px) {
+}
+
+@media screen and (max-width: 790px) { 
+    .title > p {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+}
+
+@media screen and (max-width: 675px) {    
+    .title > p {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .title > p {
+        font-size: 20px;        
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .title {
+        height: 40px;
+    }
+    .title > p {
+        font-size: 16px;
+        line-height: 40px;
+    }
+}

@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/header.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+    <link rel="stylesheet" href="../CSS/PUBLIC.css">
+    <link rel="stylesheet" href="../CSS/congdong.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="icon" href="../image/logo.png">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>GP114 - Hành Tinh Xanh</title>
+    <script src="js/jquery.js"></script>
+</head>
+<body>
+    <div class="header">
+
+        <div class="logoandname">
+            <div class="containerrr" style="border-top-right-radius: 0;">
+                <div class="logo">
+                    <img class="logoimg" src="../Image/LOGO.png" alt="No never">
+                </div>
+                <i class="leaf1 fa-brands fa-pagelines"></i>
+                <div class="Title">
+                    <p class="titleweb">HÀNH TINH XANH</p>
+                    <p class="sloganweb"><i>" Môi trường hôm nay - Cuộc sống ngày mai "</i></p>
+                </div>
+                <i class="leaf2 fa-brands fa-pagelines"></i>
+            </div>
+            <div class="Homnay">
+                <div style="border-bottom-left-radius: 0;">
+                    <i class="fa-solid fa-calendar-days"></i><div id="ngay"></div>
+                    <i class="fa-solid fa-clock"></i><div id="gio"></div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="mini_menu btn_htx">
+            <i class="fa-solid fa-house-chimney mn"></i><p>TRANG CHỦ</p><i class="fa-solid fa-leaf mn"></i>
+        </div>
+
+
+        <div class="nav">
+            <ul type="none">
+                <li><a href="../index.html">TRANG CHỦ</a></li>
+                <li><a href="tintuc.html">TIN TỨC</a></li>
+                <li><a href="chiendich.html">CHIẾN DỊCH</a></li>
+                <li><a href="nhom.html">NHÓM</a></li>
+                <li><a href="congdong.html">CỘNG ĐỒNG</a></li>
+                <li><a href="gioithieu.html">GIỚI THIỆU</a></li>
+                <li><a href="dangnhap.html">ĐĂNG NHẬP</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main">
+        
+        <div class="congdong">
+            <div class="title">
+                <p>CỘNG ĐỒNG <i class="fa-solid fa-camera-retro"></i></p>
+                <div class="nav_cd">
+                    <a class="trangcongdong" href="./congdong.html">CỘNG ĐỒNG</a>
+                    <a class="trangcanhan" href="./trangcanhan.html">CÁ NHÂN</a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="khoanhkhac">
+                    <ul type="none">
+
+
+                        <li class="row">
+                            <div class="avatar">
+                                <a href="./trangcanhan.html"><img src="../Image/Avatar/avt2.jpg" alt=""></a>
+                                <div class="theodoi">
+                                    <i class="fa-solid fa-circle-plus"></i>
+                                    <!-- <i class="fa-solid fa-circle-check"></i> -->
+                                </div>
+                                <div class="tuongtac">
+                                    <div class="yeuthich">
+                                        <i class="fa-solid fa-heart"></i>
+                                        <p>24</p>
+                                    </div>
+                                    <div class="binhluan">
+                                        <i class="fa-solid fa-comment-dots"></i>
+                                        <p>3</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="post">
+                                <div class="caption">
+                                    <h6><b>Nguyễn Hạ Chi </b>- 12:30 | 2022-06-09 <i class="fa-solid fa-caret-down"></i></h6>
+                                    <p>Tổng cục Lâm nghiệp thống kê khoảng 22.800 ha rừng bị thiệt hại giai đoạn 2011-2019, trong đó nguyên nhân cháy rừng gần 14.000 ha, phá rừng hơn 9.000 ha[3]. Theo Tổng cục Lâm nghiệp (Bộ NN&PTNT), chỉ hơn 5 năm (2012-2017), diện tích rừng tự nhiên bị mất do chuyển mục đích sử dụng rừng tại các dự án được duyệt chiếm 89% tổng diện tích rừng giảm; còn lại là do phá rừng trái pháp luật làm mất 11%. Hãy lên án các hành động chặt phá rừng 😤😤😤!!!</p>
+                                </div>
+                                <div class="picture"><img src="../Image/Congdong/pic2.jpg" alt=""></div>
+                            </div>
+
+                            <div class="commentbox">
+                                <ul id="commentList" type="none">
+                                    <li class="row">
+                                        <div class="avatar">
+                                            <img src="../Image/add_2.jpg" alt="" width="40px" height="40px">
+                                        </div>
+                                        <div class="comment">
+                                            <p><b>Nguyễn Văn Tài</b></p>
+                                            <p class="commentline">đúng vậy!!!</p>
+                                        </div>
+                                    </li>
+                                    <li class="row">
+                                        <div class="avatar">
+                                            <img src="../Image/add_2.jpg" alt="" width="40px" height="40px">
+                                        </div>
+                                        <div class="comment">
+                                            <p><b>Bình Thuận An</b></p>
+                                            <p class="commentline">nên vậy chị...</p>
+                                        </div>
+                                    </li>
+                                    <li class="row">
+                                        <div class="avatar">
+                                            <img src="../Image/add_2.jpg" alt="" width="40px" height="40px">
+                                        </div>
+                                        <div class="comment">
+                                            <p><b>Thị Hạnh Nguyễn</b></p>
+                                            <p class="commentline">hiccccc<3</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="binhluan">
+                                    <input type="text" id="bl" name="bluan" placeholder="Nhập bình luận...">
+                                    <button class="guibtn" onclick="sendComment()">Gửi</button>
+                                </div>
+                            </div>
+                        </li>
+
+
+
+
+                        <li class="row">
+                            <div class="avatar">
+                                <a href="./trangcanhan.html"><img src="../Image/Avatar/avt1.jpg" alt=""></a>
+                                <div class="theodoi">
+                                    <i class="fa-solid fa-circle-plus"></i>
+                                    <!-- <i class="fa-solid fa-circle-check"></i> -->
+                                </div>
+                                <div class="tuongtac">
+                                    <div class="yeuthich">
+                                        <i class="fa-solid fa-heart"></i>
+                                        <p>33</p>
+                                    </div>
+                                    <div class="binhluan">
+                                        <i class="fa-solid fa-comment-dots"></i>
+                                        <p>4</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="post">
+                                <div class="caption">
+                                    <h6><b>Đặng Thị Thắm </b>- 12:30 | 2022-06-08 <i class="fa-solid fa-caret-down"></i></h6>
+                                    <p>Hôm nay trời đẹp quá mọi người ạ!!! Mọi người trong nhóm có chiến dịch hôm nay là trồng cây phủ xanh đồi trọc. Tự hào là người VIệt Nam!!!</p>
+                                </div>
+                                <div class="picture"><img src="../Image/Congdong/pic4.jpg" alt=""></div>
+                            </div>
+
+                            <div class="commentbox">
+                                <ul id="commentList" type="none">
+                                    <li class="row">
+                                        <div class="avatar">
+                                            <img src="../Image/add_2.jpg" alt="" width="40px" height="40px">
+                                        </div>
+                                        <div class="comment">
+                                            <p><b>Nguyễn Văn Tài</b></p>
+                                            <p class="commentline">Tuyệt vời quá!!!</p>
+                                        </div>
+                                    </li>
+                                    <li class="row">
+                                        <div class="avatar">
+                                            <img src="../Image/add_2.jpg" alt="" width="40px" height="40px">
+                                        </div>
+                                        <div class="comment">
+                                            <p><b>Bình Thuận An</b></p>
+                                            <p class="commentline">Tự hào quá điiiii!</p>
+                                        </div>
+                                    </li>
+                                    <li class="row">
+                                        <div class="avatar">
+                                            <img src="../Image/add_2.jpg" alt="" width="40px" height="40px">
+                                        </div>
+                                        <div class="comment">
+                                            <p><b>Thị Hạnh Nguyễn</b></p>
+                                            <p class="commentline">Hôm nào cho em tham gia với nhé anh <3</p>
+                                        </div>
+                                    </li>
+                                    <li class="row">
+                                        <div class="avatar">
+                                            <img src="../Image/add_2.jpg" alt="" width="40px" height="40px">
+                                        </div>
+                                        <div class="comment">
+                                            <p><b>Nguyễn Văn Tài</b></p>
+                                            <p class="commentline">Tuyệt vời</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="binhluan">
+                                    <input type="text" id="bl" name="bluan" placeholder="Nhập bình luận...">
+                                    <button class="guibtn" onclick="sendComment()">Gửi</button>
+                                </div>
+                            </div>
+                        </li>
+
+
+
+
+
+                        <li class="row">
+                            <div class="avatar">
+                                <a href="./trangcanhan.html"><img src="../Image/Avatar/avt3.jpg" alt="" width="90px" heigth="90px"></a>
+                                <div class="theodoi">
+                                    <i class="fa-solid fa-circle-plus"></i>
+                                    <!-- <i class="fa-solid fa-circle-check"></i> -->
+                                </div>
+                                <div class="tuongtac">
+                                    <div class="yeuthich">
+                                        <i class="fa-solid fa-heart"></i>
+                                        <p>18</p>
+                                    </div>
+                                    <div class="binhluan">
+                                        <i class="fa-solid fa-comment-dots"></i>
+                                        <p>3</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="post">
+                                <div class="caption">
+                                    <h6><b>Nguyễn Văn A </b>- 12:30 | 2022-06-08 <i class="fa-solid fa-caret-down"></i></h6>
+                                    <p></p>
+                                </div>
+                                <div class="picture"><img src="../Image/Congdong/pic3.jpg" alt=""></div>
+                            </div>
+
+                            <div class="commentbox">
+                                <ul id="commentList" type="none">
+                                    <li class="row">
+                                        <div class="avatar">
+                                            <img src="../Image/add_2.jpg" alt="" width="40px" height="40px">
+                                        </div>
+                                        <div class="comment">
+                                            <p><b>Nguyễn Văn Tài</b></p>
+                                            <p class="commentline">Tuyệt vời quá!!!</p>
+                                        </div>
+                                    </li>
+                                    <li class="row">
+                                        <div class="avatar">
+                                            <img src="../Image/add_2.jpg" alt="" width="40px" height="40px">
+                                        </div>
+                                        <div class="comment">
+                                            <p><b>Bình Thuận An</b></p>
+                                            <p class="commentline">Tự hào quá điiiii!</p>
+                                        </div>
+                                    </li>
+                                    <li class="row">
+                                        <div class="avatar">
+                                            <img src="../Image/add_2.jpg" alt="" width="40px" height="40px">
+                                        </div>
+                                        <div class="comment">
+                                            <p><b>Thị Hạnh Nguyễn</b></p>
+                                            <p class="commentline">Hôm nào cho em tham gia với nhé anh <3</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="binhluan">
+                                    <input type="text" id="bl" name="bluan" placeholder="Nhập bình luận...">
+                                    <button class="guibtn" onclick="sendComment()">Gửi</button>
+                                </div>
+                            </div>
+                        </li>
+
+
+
+
+
+                        <li class="row">
+                            <div class="avatar">
+                                <a href="./trangcanhan.html"><img src="../Image/Avatar/avt4.jpg" alt="" width="90px" heigth="90px"></a>
+                                <div class="theodoi">
+                                    <i class="fa-solid fa-circle-plus"></i>
+                                    <!-- <i class="fa-solid fa-circle-check"></i> -->
+                                </div>
+                                <div class="tuongtac">
+                                    <div class="yeuthich">
+                                        <i class="fa-solid fa-heart"></i>
+                                        <p>24</p>
+                                    </div>
+                                    <div class="binhluan">
+                                        <i class="fa-solid fa-comment-dots"></i>
+                                        <p>3</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="post">
+                                <div class="caption">
+                                    <h6><b>Trần Văn An </b> - 12:30 | 2022-06-04 <i class="fa-solid fa-caret-down"></i></h6>
+                                    <p>Một bức ảnh cho cả quá trình chăm chỉ hôm nay. Tất cả vì Hành Tinh Xanh của chúng ta....</p>
+                                </div>
+                                <div class="picture"><img src="../Image/Congdong/pic1.jpg" alt=""></div>
+                            </div>
+
+                            <div class="commentbox">
+                                <ul id="commentList" type="none">
+                                    <li class="row">
+                                        <div class="avatar">
+                                            <img src="../Image/add_2.jpg" alt="" width="40px" height="40px">
+                                        </div>
+                                        <div class="comment">
+                                            <p><b>Nguyễn Văn Tài</b></p>
+                                            <p class="commentline">Tuyệt vời quá!!!</p>
+                                        </div>
+                                    </li>
+                                    <li class="row">
+                                        <div class="avatar">
+                                            <img src="../Image/add_2.jpg" alt="" width="40px" height="40px">
+                                        </div>
+                                        <div class="comment">
+                                            <p><b>Bình Thuận An</b></p>
+                                            <p class="commentline">Tự hào quá điiiii!</p>
+                                        </div>
+                                    </li>
+                                    <li class="row">
+                                        <div class="avatar">
+                                            <img src="../Image/add_2.jpg" alt="" width="40px" height="40px">
+                                        </div>
+                                        <div class="comment">
+                                            <p><b>Thị Hạnh Nguyễn</b></p>
+                                            <p class="commentline">Hôm nào cho em tham gia với nhé anh <3</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="binhluan">
+                                    <input type="text" id="bl" name="bluan" placeholder="Nhập bình luận...">
+                                    <button class="guibtn" onclick="sendComment()">Gửi</button>
+                                </div>
+                            </div>
+                        </li>
+
+
+
+
+
+                        <li class="row">
+                            <div class="avatar">
+                                <a href="./trangcanhan.html"><img src="../Image/Avatar/avt5.jpg" alt="" width="90px" heigth="90px"></a>
+                                <div class="theodoi">
+                                    <i class="fa-solid fa-circle-plus"></i>
+                                    <!-- <i class="fa-solid fa-circle-check"></i> -->
+                                </div>
+                                <div class="tuongtac">
+                                    <div class="yeuthich">
+                                        <i class="fa-solid fa-heart"></i>
+                                        <p>24</p>
+                                    </div>
+                                    <div class="binhluan">
+                                        <i class="fa-solid fa-comment-dots"></i>
+                                        <p>3</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="post">
+                                <div class="caption">
+                                    <h6><b>Nguyễn Trọng Tấn </b> - 12:30 | 2022-06-09 <i class="fa-solid fa-caret-down"></i></h6>
+                                    <p>Với em, người tốt là những người không ngại công việc vất vả vẫn cố gắng đóng góp cho mọi người. Cô lao công của trường em là người như vậy. Thời gian em gắn bó với ngôi trường cũng là ngần ấy thời gian em được nhìn thấy cô làm việc. Hình ảnh ấy luôn hiện hữu trong đầu em thật gần gũi dù em đã lên cấp hai và rời xa ngôi trường ngày ấy.</p>
+                                </div>
+                                <div class="picture"><img src="../Image/Congdong/pic5.jpg" alt=""></div>
+                            </div>
+
+                            <div class="commentbox">
+                                <ul id="commentList" type="none">
+                                    <li class="row">
+                                        <div class="avatar">
+                                            <img src="../Image/add_2.jpg" alt="" width="40px" height="40px">
+                                        </div>
+                                        <div class="comment">
+                                            <p><b>Nguyễn Văn Tài</b></p>
+                                            <p class="commentline">Tuyệt vời quá!!!</p>
+                                        </div>
+                                    </li>
+                                    <li class="row">
+                                        <div class="avatar">
+                                            <img src="../Image/add_2.jpg" alt="" width="40px" height="40px">
+                                        </div>
+                                        <div class="comment">
+                                            <p><b>Bình Thuận An</b></p>
+                                            <p class="commentline">Tự hào quá điiiii!</p>
+                                        </div>
+                                    </li>
+                                    <li class="row">
+                                        <div class="avatar">
+                                            <img src="../Image/add_2.jpg" alt="" width="40px" height="40px">
+                                        </div>
+                                        <div class="comment">
+                                            <p><b>Thị Hạnh Nguyễn</b></p>
+                                            <p class="commentline">Hôm nào cho em tham gia với nhé anh <3</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="binhluan">
+                                    <input type="text" id="bl" name="bluan" placeholder="Nhập bình luận...">
+                                    <button class="guibtn" onclick="sendComment()">Gửi</button>
+                                </div>
+                            </div>
+                        </li>
+
+
+
+
+
+                        <li class="row">
+                            <div class="avatar">
+                                <a href="./trangcanhan.html"><img src="../Image/Avatar/avt6.jpg" alt="" width="90px" heigth="90px"></a>
+                                <div class="theodoi">
+                                    <i class="fa-solid fa-circle-plus"></i>
+                                    <!-- <i class="fa-solid fa-circle-check"></i> -->
+                                </div>
+                                <div class="tuongtac">
+                                    <div class="yeuthich">
+                                        <i class="fa-solid fa-heart"></i>
+                                        <p>219</p>
+                                    </div>
+                                    <div class="binhluan">
+                                        <i class="fa-solid fa-comment-dots"></i>
+                                        <p>3</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="post">
+                                <div class="caption">
+                                    <h6><b>Nguyễn Trường Chí </b>- 12:30 | 2022-06-09 <i class="fa-solid fa-caret-down"></i></h6>
+                                    <p>Rác thải nhựa chiếm tỷ lệ lớn trong tổng lượng rác thải biển. Rác thải nhựa rất nhiều nằm lại dưới đáy đại dương và sẽ tồn tại nhiều thế kỷ, trở thành một phần thức ăn đầu độc các loài sinh vật biển. Theo dự báo của các nhà khoa học, khối lượng rác nhựa đến năm 2050 ở các đại dương sẽ nặng hơn khối lượng của cá.</p>
+                                </div>
+                                <div class="picture"><img src="../Image/Congdong/pic6.jpg" alt=""></div>
+                            </div>
+
+                            <div class="commentbox">
+                                <ul id="commentList" type="none">
+                                    <li class="row">
+                                        <div class="avatar">
+                                            <img src="../Image/add_2.jpg" alt="" width="40px" height="40px">
+                                        </div>
+                                        <div class="comment">
+                                            <p><b>Nguyễn Văn Tài</b></p>
+                                            <p class="commentline">Tuyệt vời quá!!!</p>
+                                        </div>
+                                    </li>
+                                    <li class="row">
+                                        <div class="avatar">
+                                            <img src="../Image/add_2.jpg" alt="" width="40px" height="40px">
+                                        </div>
+                                        <div class="comment">
+                                            <p><b>Bình Thuận An</b></p>
+                                            <p class="commentline">Tự hào quá điiiii!</p>
+                                        </div>
+                                    </li>
+                                    <li class="row">
+                                        <div class="avatar">
+                                            <img src="../Image/add_2.jpg" alt="" width="40px" height="40px">
+                                        </div>
+                                        <div class="comment">
+                                            <p><b>Thị Hạnh Nguyễn</b></p>
+                                            <p class="commentline">Hôm nào cho em tham gia với nhé anh <3</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="binhluan">
+                                    <input type="text" id="bl" name="bluan" placeholder="Nhập bình luận...">
+                                    <button class="guibtn" onclick="sendComment()">Gửi</button>
+                                </div>
+                            </div>
+                        </li>
+
+
+
+
+
+                        <li class="row">
+                            <div class="avatar">
+                                <a href="./trangcanhan.html"><img src="../Image/Avatar/avt7.jpg" alt="" width="90px" heigth="90px"></a>
+                                <div class="theodoi">
+                                    <i class="fa-solid fa-circle-plus"></i>
+                                    <!-- <i class="fa-solid fa-circle-check"></i> -->
+                                </div>
+                                <div class="tuongtac">
+                                    <div class="yeuthich">
+                                        <i class="fa-solid fa-heart"></i>
+                                        <p>55</p>
+                                    </div>
+                                    <div class="binhluan">
+                                        <i class="fa-solid fa-comment-dots"></i>
+                                        <p>5</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="post">
+                                <div class="caption">
+                                    <h6><b>Đào Văn Thông </b>- 12:30 | 2022-06-09 <i class="fa-solid fa-caret-down"></i></h6>
+                                    <p>Thực trạng ô nhiễm môi trường nước ở nước ta đã kéo theo những hệ lụy khủng khiếp cho con người. Cứ mỗi năm các tổ chức quốc tế vẫn tiếp tục đưa ra những con số rất đáng lo ngại về tình trạng ô nhiễm môi trường nước ở nước ta.</p>
+                                </div>
+                                <div class="picture"><img src="../Image/Congdong/pic7.jpg" alt=""></div>
+                            </div>
+
+                            <div class="commentbox">
+                                <ul id="commentList" type="none">
+                                    <li class="row">
+                                        <div class="avatar">
+                                            <img src="../Image/add_2.jpg" alt="" width="40px" height="40px">
+                                        </div>
+                                        <div class="comment">
+                                            <p><b>Nguyễn Văn Tài</b></p>
+                                            <p class="commentline">Tuyệt vời quá!!!</p>
+                                        </div>
+                                    </li>
+                                    <li class="row">
+                                        <div class="avatar">
+                                            <img src="../Image/add_2.jpg" alt="" width="40px" height="40px">
+                                        </div>
+                                        <div class="comment">
+                                            <p><b>Bình Thuận An</b></p>
+                                            <p class="commentline">Tự hào quá điiiii!</p>
+                                        </div>
+                                    </li>
+                                    <li class="row">
+                                        <div class="avatar">
+                                            <img src="../Image/add_2.jpg" alt="" width="40px" height="40px">
+                                        </div>
+                                        <div class="comment">
+                                            <p><b>Thị Hạnh Nguyễn</b></p>
+                                            <p class="commentline">Hôm nào cho em tham gia với nhé anh <3</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="binhluan">
+                                    <input type="text" id="bl" name="bluan" placeholder="Nhập bình luận...">
+                                    <button class="guibtn" onclick="sendComment()">Gửi</button>
+                                </div>
+                            </div>
+                        </li>
+
+
+
+
+
+                        <li class="row">
+                            <div class="avatar">
+                                <a href="./trangcanhan.html"><img src="../Image/Avatar/avt8.png" alt="" width="90px" heigth="90px"></a>
+                                <div class="theodoi">
+                                    <i class="fa-solid fa-circle-plus"></i>
+                                    <!-- <i class="fa-solid fa-circle-check"></i> -->
+                                </div>
+                                <div class="tuongtac">
+                                    <div class="yeuthich">
+                                        <i class="fa-solid fa-heart"></i>
+                                        <p>24</p>
+                                    </div>
+                                    <div class="binhluan">
+                                        <i class="fa-solid fa-comment-dots"></i>
+                                        <p>3</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="post">
+                                <div class="caption">
+                                    <h6><b>Phạm Thị Hằng </b>- 12:30 | 2022-06-09 <i class="fa-solid fa-caret-down"></i></h6>
+                                    <p>Con tôi vẽ bức ảnh này về môi trường. Hy vọng có các cuộc thi ảnh về môi trường để cho trẻ con có cảm nhận sớm về môi trường!!!</p>
+                                </div>
+                                <div class="picture"><img src="../Image/Congdong/pic8.jpg" alt=""></div>
+                            </div>
+
+                            <div class="commentbox">
+                                <ul id="commentList" type="none">
+                                    <li class="row">
+                                        <div class="avatar">
+                                            <img src="../Image/add_2.jpg" alt="" width="40px" height="40px">
+                                        </div>
+                                        <div class="comment">
+                                            <p><b>Nguyễn Văn Tài</b></p>
+                                            <p class="commentline">Tuyệt vời quá!!!</p>
+                                        </div>
+                                    </li>
+                                    <li class="row">
+                                        <div class="avatar">
+                                            <img src="../Image/add_2.jpg" alt="" width="40px" height="40px">
+                                        </div>
+                                        <div class="comment">
+                                            <p><b>Bình Thuận An</b></p>
+                                            <p class="commentline">Tự hào quá điiiii!</p>
+                                        </div>
+                                    </li>
+                                    <li class="row">
+                                        <div class="avatar">
+                                            <img src="../Image/add_2.jpg" alt="" width="40px" height="40px">
+                                        </div>
+                                        <div class="comment">
+                                            <p><b>Thị Hạnh Nguyễn</b></p>
+                                            <p class="commentline">Hôm nào cho em tham gia với nhé anh <3</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="binhluan">
+                                    <input type="text" id="bl" name="bluan" placeholder="Nhập bình luận...">
+                                    <button class="guibtn" onclick="sendComment()">Gửi</button>
+                                </div>
+                            </div>
+                        </li>
+
+
+
+
+
+                        <li class="row">
+                            <div class="avatar">
+                                <a href="./trangcanhan.html"><img src="../Image/Avatar/avt9.jpg" alt="" width="90px" heigth="90px"></a>
+                                <div class="theodoi">
+                                    <i class="fa-solid fa-circle-plus"></i>
+                                    <!-- <i class="fa-solid fa-circle-check"></i> -->
+                                </div>
+                                <div class="tuongtac">
+                                    <div class="yeuthich">
+                                        <i class="fa-solid fa-heart"></i>
+                                        <p>243</p>
+                                    </div>
+                                    <div class="binhluan">
+                                        <i class="fa-solid fa-comment-dots"></i>
+                                        <p>13</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="post">
+                                <div class="caption">
+                                    <h6><b>Võ Chí Dũng </b>- 12:30 | 2022-06-09 <i class="fa-solid fa-caret-down"></i></h6>
+                                    <p>Nhìn đám trẻ hào hứng về ngày môi trường mà trong lòng tôi cũng muốn làm gì đó!!!</p>
+                                </div>
+                                <div class="picture"><img src="../Image/Congdong/pic9.jpg" alt=""></div>
+                            </div>
+
+                            <div class="commentbox">
+                                <ul id="commentList" type="none">
+                                    <li class="row">
+                                        <div class="avatar">
+                                            <img src="../Image/add_2.jpg" alt="" width="40px" height="40px">
+                                        </div>
+                                        <div class="comment">
+                                            <p><b>Nguyễn Văn Tài</b></p>
+                                            <p class="commentline">Tuyệt vời quá!!!</p>
+                                        </div>
+                                    </li>
+                                    <li class="row">
+                                        <div class="avatar">
+                                            <img src="../Image/add_2.jpg" alt="" width="40px" height="40px">
+                                        </div>
+                                        <div class="comment">
+                                            <p><b>Bình Thuận An</b></p>
+                                            <p class="commentline">Tự hào quá điiiii!</p>
+                                        </div>
+                                    </li>
+                                    <li class="row">
+                                        <div class="avatar">
+                                            <img src="../Image/add_2.jpg" alt="" width="40px" height="40px">
+                                        </div>
+                                        <div class="comment">
+                                            <p><b>Thị Hạnh Nguyễn</b></p>
+                                            <p class="commentline">Hôm nào cho em tham gia với nhé anh <3</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="binhluan">
+                                    <input type="text" id="bl" name="bluan" placeholder="Nhập bình luận...">
+                                    <button class="guibtn" onclick="sendComment()">Gửi</button>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <!-- MENU -->
+        <div class="menu_on_hover" id="menu_on_hover">
+            <ul type="none">
+                <li><a href="../index.html">TRANG CHỦ</a></li>
+                <li><a href="tintuc.html">TIN TỨC</a></li>
+                <li><a href="chiendich.html">CHIẾN DỊCH</a></li>
+                <li><a href="nhom.html">NHÓM</a></li>
+                <li><a href="congdong.html">CỘNG ĐỒNG</a></li>
+                <li><a href="gioithieu.html">GIỚI THIỆU</a></li>
+                <li><a href="dangnhap.html">ĐĂNG NHẬP</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+        <div class="logofooter">
+            <img src="../Image/LOGO.png" alt="" width="200px" height="200px">
+        </div>
+        <div class="info">
+            <p class="banquyen">BẢN QUYỀN: @2022 GP114 - HÀNH TINH XANH</p>
+            <p class="slogan">"Môi trường hôm nay - Cuộc sống ngày mai"</p>
+            <div>
+                <div class="lienhe_diachi">
+                    <h5><b>Liên hệ:</b></h5>
+                    <p class="thongtin">Địa chỉ: 470 Đường Trần Đại Nghĩa, Hoà Hải, Ngũ Hành Sơn, Đà Nẵng</p>
+                    <p class="thongtin">Liên hệ SĐT: 0918273645</p>
+                    <p class="thongtin">Email-1: <a href="mailto: dungvc.21it@vku.udn.vn">dungvc.21it@vku.udn.vn</a></p>
+                    <p class="thongtin">Email-2: <a href="mailto: chint.21it@vku.udn.vn">chint.21it@vku.udn.vn</a></p> 
+                    <p class="thongtin">Email-3: <a href="mailto: datpt.21it@vku.udn.vn">datpt.21it@vku.udn.vn</a></p>
+                </div>               
+                <div class="lienhekhac">
+                    <h5><b>Kết nối với chúng tôi</b></h5>
+                    <a href="https://www.facebook.com/chidung.vo.505"><img src="../Image/Icon/facebook.png" alt=""></a>
+                    <a href="https://www.instagram.com/johnn.243/"><img src="../Image/Icon/instagram.png" alt=""></a>
+                    <a href="https://twitter.com/JohnD24777"><img src="../Image/Icon/twitter.png" alt=""></a>
+                    <a href=""><img src="../Image/Icon/messenger.png" alt=""></a>                
+                </div>
+            </div>
+        </div>
+        <div class="finished">@2022 - Bản quyền thuộc về GP114</div>
+    </div>  
+          
+    <!-- TRAI DAT -->
+    <div class="traidat" href="...html">
+        <img src="../Image/traidat.png" alt="" width="110px" height="110px">
+    </div>
+    <div class="timkiemchung">
+        <input type="text" name="s" placeholder="Tìm kiếm chung">
+        <button class="buttons" onclick=""><i class="fa-solid fa-magnifying-glass"></i>Tìm</button>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../JS/PUBLIC.js"></script>  
+    <script src="../JS/congdong.js"></script>
+</body>
+</html>

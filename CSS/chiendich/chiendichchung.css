@@ -1,0 +1,126 @@
+.btn_huythamgia {
+    background-color: rgb(228, 171, 16);
+    border-color: yellow;
+}
+.btn_huythamgia:hover {
+    color: yellow;
+}
+.btn_thamgiangay {
+    background-color: rgb(42, 193, 34);
+    border-color: rgb(70, 255, 60);
+}
+
+.chiendich >  .content > .hienthichiendich {
+    background-color: rgb(186, 255, 187);
+    margin-top: 10px;
+    width: auto;
+    margin: 10px 10px;
+    border: solid 1px var(--button-border-color);
+    padding: 10px;
+}
+
+.hienthichiendich > div {
+    margin: 10px 10px;
+    margin-top: 5px;
+    padding: 10px 10px;
+    display: flex;
+    border: solid 2px rgb(232, 232, 232);
+    color: black;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(74, 74, 74) 0px 3px 5px;
+    
+    border-top-right-radius: 20px; 
+    border-bottom-left-radius: 20px;
+}
+.hienthichiendich > div > .pic_btn {
+    display: block;
+    padding: 10px 10px 15px 10px;
+    background-color: white;
+    box-shadow: rgb(186, 185, 185) 0px 3px 10px;
+    margin-right: 5px;
+    border-top-right-radius: 0;
+    border: solid 1px rgb(232, 232, 232);
+}
+.hienthichiendich > div > .pic_btn > a:hover {
+    cursor: pointer;
+}
+.hienthichiendich > div > div > img {
+    width: 243px;
+    height: 182px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-bottom: 20px;
+    box-shadow: rgb(223, 223, 223) 0px 3px 10px;
+}
+
+.hienthichiendich > div > .thongtinchiendich {
+    padding: 10px;
+    flex: 1;
+    background-color: white;
+    border: solid 1px rgb(232, 232, 232);
+    box-shadow: rgb(186, 185, 185) 0px 3px 10px;
+    border-bottom-left-radius: 0;
+}
+.hienthichiendich > div > .thongtinchiendich > div {
+    border: solid 1px rgb(225, 224, 224);
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;
+}
+.hienthichiendich > div > .thongtinchiendich > div > p {
+    text-shadow: 1px 1px 1px rgb(226, 225, 225);
+    font-weight: bold;
+    font-size: 15px;
+    margin: 5px 0;
+    color: rgb(62, 62, 62);
+}.hienthichiendich > div > .thongtinchiendich > div > p > b {
+    color: rgb(31, 31, 31);
+    font-weight: bolder;
+    margin-right: 5px;
+}
+
+.chiendich > .content > .hienthichiendich > div:hover div > img {
+    border: solid 1px rgb(255, 255, 255);
+    box-shadow: rgb(237, 236, 236) 1px 3px 20px;
+    transform: scale(1.06, 1.06);
+    transition: 100ms;
+    transition-timing-function: ease-in-out;
+}
+.chiendich > .content > .hienthichiendich > div:hover> .thongtinchiendich > div {
+    transform: scale(1.02, 1.02);
+    transition: 100ms;
+    transition-timing-function: ease-in-out;
+    box-shadow: rgb(237, 236, 236) 1px 3px 20px;
+}
+
+@media screen and (max-width: 1050px) {  
+    .chiendich > .content > .hienthichiendich > div {
+        display: block;
+    }
+    .hienthichiendich > div > .pic_btn {
+        margin: 0;
+    }
+    .pic_btn > img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .hienthichiendich > div > .thongtinchiendich > div > p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .hienthichiendich > div > .thongtinchiendich > div > p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .hienthichiendich > div > .thongtinchiendich > div > p {
+        font-size: 12px;
+    }
+}

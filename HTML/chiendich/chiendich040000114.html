@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../CSS/header.css">
+    <link rel="stylesheet" href="../../CSS/footer.css">
+    <link rel="stylesheet" href="../../CSS/PUBLIC.css">
+    <link rel="stylesheet" href="../../CSS/chiendich.css">
+    <link rel="stylesheet" href="../../CSS/chiendich/chiendichchung.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="icon" href="../../image/logo.png">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>GP114 - Hành Tinh Xanh</title>
+    <script src="js/jquery.js"></script>
+</head>
+<body>
+    <div class="header">
+
+        <div class="logoandname">
+            <div class="containerrr" style="border-top-right-radius: 0;">
+                <div class="logo">
+                    <img class="logoimg" src="../../Image/LOGO.png" alt="No never">
+                </div>
+                <i class="leaf1 fa-brands fa-pagelines"></i>
+                <div class="Title">
+                    <p class="titleweb">HÀNH TINH XANH</p>
+                    <p class="sloganweb"><i>" Môi trường hôm nay - Cuộc sống ngày mai "</i></p>
+                </div>
+                <i class="leaf2 fa-brands fa-pagelines"></i>
+            </div>
+            <div class="Homnay">
+                <div style="border-bottom-left-radius: 0;">
+                    <i class="fa-solid fa-calendar-days"></i><div id="ngay"></div>
+                    <i class="fa-solid fa-clock"></i><div id="gio"></div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="mini_menu btn_htx">
+            <i class="fa-solid fa-house-chimney mn"></i><p>TRANG CHỦ</p><i class="fa-solid fa-leaf mn"></i>
+        </div>
+
+        <div class="nav">
+            <ul type="none">
+                <li><a href="../../index.html">TRANG CHỦ</a></li>
+                <li><a href="../tintuc.html">TIN TỨC</a></li>
+                <li><a href="../chiendich.html">CHIẾN DỊCH</a></li>
+                <li><a href="../nhom.html">NHÓM</a></li>
+                <li><a href="../congdong.html">CỘNG ĐỒNG</a></li>
+                <li><a href="../gioithieu.html">GIỚI THIỆU</a></li>
+                <li><a href="../dangnhap.html">ĐĂNG NHẬP</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="chiendich">
+            <div class="title">
+                <p><span>CHIẾN DỊCH <i class="fa-solid fa-person-digging"></i></span><i id="btncd" class="fa-solid fa-magnifying-glass"></i></p>
+            </div>
+            <div class="content">
+                <div class="thanhcongcu">
+                    <input type="text" id="mcd" name="mcd" placeholder="Mã chiến dịch">
+                    <input type="text" id="tcd" name="tcd" placeholder="Tên chiến dịch">
+                    <input type="text" id="nth" name="nth" placeholder="Nhóm thực hiện">
+                    <a href="../chiendich/chiendich010000147.html" class="btn btn-danger">Tìm kiếm</a>
+                    <a id="blcd" class="btn btn-danger">Bộ lọc</a>
+                    <div>
+                        
+                    </div>
+                </div>
+
+                <div id="boloc" class="boloc">
+                    <h6><b>Bộ lọc</b></h6>
+                    <label for="tinh"><b>Tỉnh/Tp:</b></label>
+                    <select name="tinh" id="tinh">
+                        <option>Đà Nẵng</option>
+                        <option>Nghệ An</option>
+                        <option>Hà Nội</option>
+                        <option>TP.Hồ Chí Minh</option>
+                        <option >Thái Bình</option>
+                        <option >Quảng Trị</option>
+                        <option >Hà Tĩnh</option>
+                        <option>Bình Định</option>
+                    </select>
+                    <label for="huyen"><b>Quận/huyện: </b></label>
+                    <select name="quan" id="quan">
+                        <option>Ngũ Hành Sơn</option>
+                    </select>
+                    <label for="xa"><b>Xã/phường: </b></label>
+                    <select name="xa" id="xa">
+                        <option value="">Hòa Hải</option>
+                    </select>
+                </div>
+
+                <div class="hienthichiendich">
+                    <h4><b>KẾT QUẢ TÌM KIẾM </b></h4>
+                    <div>
+                        <div class="pic_btn">
+                            <img src="../../Image/040000114.jpg" alt="..." width="300px" height="250px">
+                            <a class="btn_htx btn-thamgia btn_thamgiangay">THAM GIA NGAY</a>
+                        </div>    
+                        <div class="thongtinchiendich">
+                            <div>
+                                <p class="tenchiendich"><b>TÊN CHIẾN DỊCH: </b> <span>Dọn rác bờ biển</span></p>
+                                <p class="machiendich"><b>MÃ CHIẾN DỊCH: </b> <span>040000138</span></p>
+                                <p class="soluong"><b>SỐ LƯỢNG: </b><span>56</span></p>
+                                <p class="thoigian"><b>THỜI GIAN: </b> <span>13 giờ ngày 13/5/2022</span></p>
+                                <p class="nguoihung"><b>NHÓM THỰC HIỆN: </b> <span>SvTruongVKU</span></p>
+                                <p class="diachi"><b>ĐỊA CHỈ: </b><span>SvTruongVKU</span></p>
+                                <p class="mota"><b>MÔ TẢ: </b><span>Nhặt rác dọc theo bờ biển Non Nước</span></p>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dangthamgia">
+                    <h4><b>ĐANG THAM GIA </b><i class="fa-solid fa-bell"></i></h4>
+                    <div>
+                        <div class="pic_btn">
+                            <img src="../../Image/040000114.jpg" alt="..." width="300px" height="250px">
+                            <a class="btn_htx btn-thamgia btn_huythamgia-">HỦY THAM GIA</a>
+                        </div>    
+                        <div class="thongtinchiendich">
+                            <div>
+                                <p class="tenchiendich"><b>TÊN CHIẾN DỊCH: </b> <span>Dọn rác bờ biển</span></p>
+                                <p class="machiendich"><b>MÃ CHIẾN DỊCH: </b> <span>040000138</span></p>
+                                <p class="soluong"><b>SỐ LƯỢNG: </b><span>56</span></p>
+                                <p class="thoigian"><b>THỜI GIAN: </b> <span>13 giờ ngày 13/5/2022</span></p>
+                                <p class="nguoihung"><b>NHÓM THỰC HIỆN: </b> <span>SvTruongVKU</span></p>
+                                <p class="diachi"><b>ĐỊA CHỈ: </b><span>SvTruongVKU</span></p>
+                                <p class="mota"><b>MÔ TẢ: </b><span>Nhặt rác dọc theo bờ biển Non Nước</span></p>
+                            </div>   
+                        </div>     
+                    </div>        
+                </div>
+            </div>
+        </div>
+        
+        <!-- MENU -->
+        <div class="menu_on_hover" id="menu_on_hover">
+            <ul type="none">
+                <li><a href="../../index.html">TRANG CHỦ</a></li>
+                <li><a href="../tintuc.html">TIN TỨC</a></li>
+                <li><a href="../chiendich.html">CHIẾN DỊCH</a></li>
+                <li><a href="../nhom.html">NHÓM</a></li>
+                <li><a href="../congdong.html">CỘNG ĐỒNG</a></li>
+                <li><a href="../gioithieu.html">GIỚI THIỆU</a></li>
+                <li><a href="../dangnhap.html">ĐĂNG NHẬP</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="logofooter">
+            <img src="../../Image/LOGO.png" alt="" width="200px" height="200px">
+        </div>
+        <div class="info">
+            <p class="banquyen">BẢN QUYỀN: @2022 GP114 - HÀNH TINH XANH</p>
+            <p class="slogan">"Môi trường hôm nay - Cuộc sống ngày mai"</p>
+            <div>
+                <div class="lienhe_diachi">
+                    <h5><b>Liên hệ:</b></h5>
+                    <p class="thongtin">Địa chỉ: 470 Đường Trần Đại Nghĩa, Hoà Hải, Ngũ Hành Sơn, Đà Nẵng</p>
+                    <p class="thongtin">Liên hệ SĐT: 0918273645</p>
+                    <p class="thongtin">Email-1: <a href="mailto: dungvc.21it@vku.udn.vn">dungvc.21it@vku.udn.vn</a></p>
+                    <p class="thongtin">Email-2: <a href="mailto: chint.21it@vku.udn.vn">chint.21it@vku.udn.vn</a></p> 
+                    <p class="thongtin">Email-3: <a href="mailto: datpt.21it@vku.udn.vn">datpt.21it@vku.udn.vn</a></p>
+                </div>               
+                <div class="lienhekhac">
+                    <h5><b>Kết nối với chúng tôi</b></h5>
+                    <a href="https://www.facebook.com/chidung.vo.505"><img src="../../Image/Icon/facebook.png" alt=""></a>
+                    <a href="https://www.instagram.com/johnn.243/"><img src="../../Image/Icon/instagram.png" alt=""></a>
+                    <a href="https://twitter.com/JohnD24777"><img src="../../Image/Icon/twitter.png" alt=""></a>
+                    <a href=""><img src="../../Image/Icon/messenger.png" alt=""></a>                
+                </div>
+            </div>
+        </div>
+        <div class="finished">@2022 - Bản quyền thuộc về GP114</div>
+    </div>
+
+    <div class="traidat" href="...html">
+        <img src="../../Image/traidat.png" alt="" width="110px" height="110px">
+    </div>
+    <div class="timkiemchung">
+        <input type="text" name="s" placeholder="Tìm kiếm chung">
+        <button class="buttons" onclick=""><i class="fa-solid fa-magnifying-glass"></i>Tìm</button>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../../JS/PUBLIC.js"></script>
+    <script>
+        document.getElementById("blcd").addEventListener("click", function() {
+            jQuery("#boloc").slideToggle("slow");
+        });
+
+        document.getElementById("btncd").addEventListener("click", function() {
+            jQuery(".content > .thanhcongcu").slideToggle();
+            jQuery("#boloc").hide("slow");
+        });
+
+
+        jQuery(".pic_btn > a").click(function() {
+            if(jQuery(this).text() === "THAM GIA NGAY") {
+                if(jQuery(".dangthamgia > div").html() === "Bạn chưa tham gia chiến dịch nào!") {
+                    jQuery(".dangthamgia > div").remove();
+                }
+                jQuery(this).text("HỦY THAM GIA");
+                jQuery(this).attr("class", "btn_htx btn-thamgia btn_huythamgia");
+                let e = document.createElement("div");
+                e.innerHTML = jQuery(this).parent().parent().html();
+                e.firstElementChild.lastElementChild.className = "btn_htx btn-thamgia btn_huythamgia";
+                jQuery(".dangthamgia").append(e);
+            }else {
+                jQuery(this).text("THAM GIA NGAY");
+                let id_cd = jQuery(this).parent().next().children().children().next().children().next().html();
+                let t = jQuery(".hienthichiendich > div > .pic_btn > .btn_huythamgia").length;
+                for(let i = 0 + t; i < jQuery(".pic_btn > .btn_huythamgia").length; i++) {
+                    if(document.getElementsByClassName("btn_huythamgia")[i].parentElement.nextElementSibling
+                    .firstElementChild.firstElementChild.nextElementSibling.lastElementChild.innerHTML === id_cd) {
+                        document.getElementsByClassName("btn_huythamgia")[i].parentElement.parentElement.remove();
+                        if(jQuery(".dangthamgia > div").length == 0) {
+                            let e = document.createElement("div");
+                            e.innerHTML = "Bạn chưa tham gia chiến dịch nào!";
+                            jQuery(".dangthamgia").append(e);
+                            break;
+                        }
+                    }
+                }
+                jQuery(this).attr("class", "btn_htx btn-thamgia btn_thamgiangay");
+            }
+        });
+    </script>
+</body>
+</html>
